@@ -1,13 +1,45 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dosis&family=Roboto:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  color: var(--text-color);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  color: var(--heading-color);
 }
+
+a {
+  position: relative;
+  color: var(--link-color);
+  text-decoration-color: rgba(0, 0, 0, 0);
+  transition-duration: 0.3s;
+  transition-property: color, text-decoration-color;
+}
+a::before {
+  content: '';
+  position: absolute;
+  background-color: var(--link-hover-color);
+  width: 100%;
+  height: 1px;
+  bottom: 0;
+  opacity: 1;
+  transform: scale(0);
+  transition-duration: 0.3s;
+  transition-property: opacity, transform;
+}
+a:hover {
+  color: var(--link-hover-color);
+  text-decoration-color: var(--link-hover-color);
+}
+a:hover::before {
+  opacity: 1;
+  /* transform: scale(1); */
+}
+
+.accent {
+  color: var(--accent-color);
+}
+
