@@ -1,0 +1,56 @@
+.title {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  text-align: center;
+  padding: clamp(5px, 20vh, 200px) 0 clamp(10px, 30vh, 300px);
+}
+
+.title.dark {
+  background-image: url('./assets/images/bg-night.png');
+}
+
+.title.light {
+  background-image: url('./assets/images/bg-day.png');
+}
+
+.title .name {
+  margin-bottom: clamp(20px, 10vw, 80px);
+  font-family: 'Comfortaa', sans-serif;
+  font-size: clamp(20px, 15vw, 100px);
+  letter-spacing: 5px;
+}
+
+.title .subtitle {
+  font-family: 'Dosis', cursive;
+  font-size: clamp(6px, 4vw, 30px);
+  color: var(--subtitle-color);
+}
+
+.heading {
+  background-color: var(--main-color);
+  display: flex;
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading h1 {
+  font-family: 'Comfortaa', sans-serif;
+  font-size: clamp(15px, 10vw, 40px);
+}
+
+.content {
+  background-color: var(--secondary-color);
+  padding: 20px;
+}
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
