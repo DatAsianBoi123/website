@@ -4,7 +4,7 @@ import { TopBar } from './TopBar';
 import { setDark, setLight } from './colors';
 
 export function App() {
-  const [theme, setTheme] = useState('dark');
+  const [theme, setTheme] = useState(window.localStorage.getItem('theme') === 'light' ? 'light' : 'dark');
 
   changeTheme(theme);
 
@@ -20,7 +20,12 @@ export function App() {
 }
 
 function changeTheme(theme) {
-  if (theme === 'dark') setDark();
-  else if (theme === 'light') setLight();
+  if (theme === 'dark') {
+    window.localStorage.setItem('theme', theme);
+    setDark();
+  } else if (theme === 'light') {
+    window.localStorage.setItem('theme', theme);
+    setLight();
+  }
 }
 
