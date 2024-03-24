@@ -1,11 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './TopBar.css';
-import logo from './assets/images/logo.png';
-import ghWhite from './assets/svg/github-mark-white.svg';
-import ghDark from './assets/svg/github-mark.svg';
-import ytDark from './assets/images/yt_icon_dark.png';
-import ytLight from './assets/images/yt_icon_light.png';
+import logo from '../assets/images/logo.png';
+import ghWhite from '../assets/svg/github-mark-white.svg';
+import ghDark from '../assets/svg/github-mark.svg';
+import ytDark from '../assets/images/yt_icon_dark.png';
+import ytLight from '../assets/images/yt_icon_light.png';
 
 export function TopBar(props) {
   const theme = props.theme;

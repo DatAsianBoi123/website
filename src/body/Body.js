@@ -1,5 +1,5 @@
 import React from 'react';
-import { Project } from './Project';
+import { Project } from '../project/Project';
 import PropTypes from 'prop-types';
 import './Body.css';
 
@@ -31,6 +31,14 @@ export function Body(props) {
             description='A Discord bot designed to help you on your next Terraria Calamity playthrough'
           />
         </div>
+      </div>
+      <div className='heading'>
+        <h1>Contact</h1>
+      </div>
+      <div className='content'>
+        <p>
+          You can contact me via <a href='https://discord.com' target='_blank' rel='noreferrer'>Discord 🡥</a>. My tag is <code>datasianboi123</code>
+        </p>
       </div>
     </>
   );

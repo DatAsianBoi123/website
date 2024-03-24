@@ -8,11 +8,11 @@
 }
 
 .title.dark {
-  background-image: url('./assets/images/bg-night.png');
+  background-image: url('../assets/images/bg-night.png');
 }
 
 .title.light {
-  background-image: url('./assets/images/bg-day.png');
+  background-image: url('../assets/images/bg-day.png');
 }
 
 .title .name {

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Body } from './Body';
-import { TopBar } from './TopBar';
+import { Body } from './body/Body';
+import { TopBar } from './topbar/TopBar';
 import { setDark, setLight } from './colors';
 
 export function App() {

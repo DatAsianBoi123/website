@@ -7,7 +7,7 @@ export function Project(props) {
     <div className='project'>
       <h1>{props.title}</h1>
       <p>{props.description}</p>
-      <a href={props.link} target='_blank' rel='noreferrer'>Learn more</a>
+      <a href={props.link} target='_blank' rel='noreferrer'>Learn more 🡥</a>
     </div>
   );
 }
