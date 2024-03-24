@@ -10,6 +10,7 @@ export const darkColors = {
   'secondary-color': 'rgb(18, 14, 20)',
   'accent-color': 'rgb(193, 143, 243)',
   'container-color': 'rgba(255, 255, 255, 0.02)',
+  'scrollbar-thumb-color': 'rgb(148, 103, 194)',
 };
 
 export const lightColors = {
@@ -22,6 +23,7 @@ export const lightColors = {
   'secondary-color': 'rgb(238, 237, 233)',
   'accent-color': 'rgb(230, 153, 28)',
   'container-color': 'rgba(0, 0, 0, 0.04)',
+  'scrollbar-thumb-color': 'rgb(250, 186, 82)',
 };
 
 export function setDark() {
