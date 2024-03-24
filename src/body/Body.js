@@ -10,9 +10,7 @@ export function Body(props) {
         <h1 className='name'>DatAsiqn</h1>
         <h2 className='subtitle'>Minecraft <span className='accent'>Plugin</span> and <span className='accent'>Discord Bot</span> Developer</h2>
       </div>
-      <div className='heading'>
-        <h1>Projects</h1>
-      </div>
+      <Heading text='Projects' />
       <div className='content'>
         <div className='projects'>
           <Project
@@ -32,19 +30,31 @@ export function Body(props) {
           />
         </div>
       </div>
-      <div className='heading'>
-        <h1>Contact</h1>
-      </div>
+      <Heading text='Contact' />
       <div className='content'>
         <p>
-          You can contact me via <a href='https://discord.com' target='_blank' rel='noreferrer'>Discord 🡥</a>. My tag is <code>datasianboi123</code>
+          Have any questions, or just wanna chat? You can contact me via <a href='https://discord.com' target='_blank' rel='noreferrer'>Discord 🡥</a>.
+          My tag is <code>datasianboi123</code>.
+          I will also be responding to any pull requests or issues posted on my <a href='https://github.com' target='_blank' rel='noreferrer'>GitHub 🡥</a>. Feel free to create any of those if you find an issue, or want to contribute to my projects!
+          <br />
+          Commissions are coming soon™.
         </p>
       </div>
     </>
   );
 }
 
+function Heading(props) {
+  return <div className='heading'>
+    <h1>{props.text}</h1>
+  </div>;
+}
+
 Body.propTypes = {
   theme: PropTypes.string.isRequired,
+};
+
+Heading.propTypes = {
+  text: PropTypes.string.isRequired,
 };
 

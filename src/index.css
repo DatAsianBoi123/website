@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dosis&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Dosis&family=Roboto:wght@300&family=Ubuntu+Mono&display=swap');
 
 * {
   box-sizing: border-box;
@@ -16,6 +16,7 @@ h1 {
 p {
   font-family: 'Roboto', cursor;
   font-size: clamp(3px, 5vw, 20px);
+  line-height: 1.5em;
 }
 
 a {
@@ -30,6 +31,16 @@ a {
 a:hover {
   color: var(--link-hover-color);
   text-decoration-color: var(--link-hover-color);
+}
+
+br {
+  display: block;
+  content: "";
+  margin-top: 0.5em;
+}
+
+code {
+  font-family: 'Ubuntu Mono', monospace;
 }
 
 .accent {
