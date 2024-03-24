@@ -17,7 +17,7 @@ export function TopBar(props) {
       <a className='img-link' href='https://github.com/DatAsianBoi123' target='_blank' rel='noreferrer'>
         <img src={theme === 'dark' ? ghWhite : ghDark} />
       </a>
-      <a className='img-link' href='https://www.youtube.com/channel/UCX6-KGY2obwLm9_5N_bo3aQ' target='_blank' rel='noreferrer'>
+      <a className='img-link' href='https://www.youtube.com/@datasiqn' target='_blank' rel='noreferrer'>
         <img src={theme === 'dark' ? ytDark : ytLight} />
       </a>
       <button className={`theme-toggle ${theme}`} onClick={() => {
