@@ -33,7 +33,9 @@ export function Body(props) {
       <Heading text='Contact' />
       <div className='content'>
         <p>
-          Have any questions, or just wanna chat? You can contact me via <a href='https://discord.com' target='_blank' rel='noreferrer'>Discord 🡥</a>.
+          Have any questions, or just wanna chat? You can contact me via my business email, <a href='mailto:contact@datasiqn.com'>contact@datasiqn.com</a>.
+          <br />
+          Feel like that&apos;s too formal? You can use <a href='https://discord.com' target='_blank' rel='noreferrer'>Discord 🡥</a>.
           My tag is <code>datasianboi123</code>.
           I will also be responding to any pull requests or issues posted on my <a href='https://github.com' target='_blank' rel='noreferrer'>GitHub 🡥</a>. Feel free to create any of those if you find an issue, or want to contribute to my projects!
           <br />
