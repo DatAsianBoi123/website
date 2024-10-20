@@ -1,4 +1,4 @@
 # Website
 
-This is my personal portfolio website. Domain coming soon™
+This is my personal portfolio website, accessible through [datasiqn.com](datasiqn.com).
 
