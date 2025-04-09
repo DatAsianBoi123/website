@@ -25,7 +25,7 @@ export function Body(props) {
           />
           <Project
             title='Terraria Calamity Guide'
-            link='https://terraria-bot.shuttleapp.rs/'
+            link='https://terraria-bot-fclj.shuttle.app/'
             description='A Discord bot designed to help you on your next Terraria Calamity playthrough'
           />
         </div>
